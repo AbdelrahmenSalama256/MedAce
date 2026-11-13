@@ -6,3 +6,9 @@ build/
 .packages
 .flutter-plugins
 .flutter-plugins-dependencies
+
+# Signing keys stay out of git
+*.jks
+*.keystore
+key.properties
+**/android/key.properties
